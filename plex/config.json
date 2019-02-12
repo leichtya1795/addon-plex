@@ -11,6 +11,12 @@
     "armhf",
     "i386"
   ],
+   "privileged": [
+    "SYS_ADMIN"
+  ],
+  "devices": [
+    "/dev/sda1:/dev/sda1:rwm"
+  ],
   "machine": [
     "intel-nuc",
     "qemux86",
